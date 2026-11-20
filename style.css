@@ -136,7 +136,8 @@
     #about h2,
     #education h2,
     #skills h2,
-    #hobbies h2 {
+    #hobbies h2,
+    #goal h2 {
       text-shadow: 0 3px 8px rgba(147, 51, 234, 0.75);
     }
 
