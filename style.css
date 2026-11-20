@@ -118,10 +118,27 @@
       object-fit: cover;
       border: 8px solid white;
       border-radius: 50%;
-      box-shadow: 0 16px 35px rgba(49, 83, 64, 0.22);
+      box-shadow:
+        0 16px 35px rgba(49, 83, 64, 0.22),
+        0 0 12px 4px rgba(168, 85, 247, 0.72),
+        0 0 32px 12px rgba(147, 51, 234, 0.48),
+        0 0 58px 18px rgba(126, 34, 206, 0.24);
     }
 
+    #personal .label-full-name { color: #000000; }
+    #personal .label-age { color: #000000; }
+    #personal .label-address { color: #000000; }
+    #personal .label-birthday { color: #000000; }
+
     #personal > center + p { margin-top: 0; }
+
+    #personal h2,
+    #about h2,
+    #education h2,
+    #skills h2,
+    #hobbies h2 {
+      text-shadow: 0 3px 8px rgba(147, 51, 234, 0.75);
+    }
 
     ul {
       display: grid;
@@ -199,11 +216,13 @@
       background: var(--lime);
       border: 0;
       cursor: pointer;
+      box-shadow: 0 8px 18px rgba(147, 51, 234, 0.72);
     }
 
     input[type="submit"]:hover {
       filter: brightness(0.96);
       transform: translateY(-2px);
+      box-shadow: 0 8px 18px rgba(147, 51, 234, 0.72);
     }
 
     footer {
